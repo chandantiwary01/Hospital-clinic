@@ -159,8 +159,8 @@ const Treatment = () => {
       {label}
     </button>
   ))}
-</div>
-</div>
+  </div>
+            </div>
 
         {/* Treatments  */}
         <div className="max-w-[1400px] mx-auto px-6 mt-16">
