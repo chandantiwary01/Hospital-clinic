@@ -38,54 +38,55 @@ const Gallery = () => {
       <div className="w-full flex flex-col gap-8 items-center mb-6 px-4 sm:px-6 lg:px-0">
         {/* Heading */}
         <div className="relative mb-14">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#000000] text-center">
-            Our latest images
-          </h2>
+         <h2 className="font-['Poppins'] font-semibold text-[32px] sm:text-[40px] lg:text-[52px] text-[#000000] text-center mt-15">
+  Our Latest Images
+</h2>
+
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-4 w-[60px] sm:w-[86px] border-b-[4px] border-[#9C0001]"></span>
         </div>
 
         {/* ===== ROW 1 ===== */}
         <div className="flex flex-col lg:flex-row gap-4 justify-center w-full max-w-[1728px]">
           <div className="w-full sm:w-[418px] h-[360px] sm:h-[506px] rounded-[20px] overflow-hidden">
-            <img src={images[0]} alt="Gallery image 1" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            <img src={gallery1} alt="Gallery image 1" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
           </div>
 
           <div className="w-full sm:w-[655px] h-[360px] sm:h-[506px] rounded-[20px] overflow-hidden">
-            <img src={images[1]} alt="Gallery image 2" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            <img src={gallery2} alt="Gallery image 2" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
           </div>
 
           <div className="w-full sm:w-[418px] h-[360px] sm:h-[506px] rounded-[20px] overflow-hidden">
-            <img src={images[2]} alt="Gallery image 3" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            <img src={gallery3} alt="Gallery image 3" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
           </div>
         </div>
 
         {/* ===== ROW 2 ===== */}
-        <div className="flex flex-col lg:flex-row gap-4 justify-center w-full max-w-[1728px]">
+        <div className="flex flex-col lg:flex-row gap-4 justify-center w-full max-w-[1728px] mt-4">
           <div className="w-full sm:w-[495px] h-[360px] sm:h-[506px] rounded-[20px] overflow-hidden">
-            <img src={images[0]} alt="Gallery image 4" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            <img src={gallery1} alt="Gallery image 4" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
           </div>
 
           <div className="w-full sm:w-[495px] h-[360px] sm:h-[506px] rounded-[20px] overflow-hidden">
-            <img src={images[1]} alt="Gallery image 5" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            <img src={gallery2} alt="Gallery image 5" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
           </div>
 
           <div className="w-full sm:w-[495px] h-[360px] sm:h-[506px] rounded-[20px] overflow-hidden">
-            <img src={images[2]} alt="Gallery image 6" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            <img src={gallery3} alt="Gallery image 6" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
           </div>
         </div>
 
         {/* ===== ROW 3 ===== */}
-        <div className="flex flex-col lg:flex-row gap-4 justify-center w-full max-w-[1728px]">
+        <div className="flex flex-col lg:flex-row gap-4 justify-center w-full max-w-[1728px] mt-4">
           <div className="w-full sm:w-[418px] h-[360px] sm:h-[506px] rounded-[20px] overflow-hidden">
-            <img src={images[0]} alt="Gallery image 7" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            <img src={gallery1} alt="Gallery image 7" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
           </div>
 
           <div className="w-full sm:w-[655px] h-[360px] sm:h-[506px] rounded-[20px] overflow-hidden">
-            <img src={images[1]} alt="Gallery image 8" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            <img src={gallery2} alt="Gallery image 8" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
           </div>
 
           <div className="w-full sm:w-[418px] h-[360px] sm:h-[506px] rounded-[20px] overflow-hidden">
-            <img src={images[2]} alt="Gallery image 9" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            <img src={gallery3} alt="Gallery image 9" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
           </div>
         </div>
 

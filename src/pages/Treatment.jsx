@@ -183,9 +183,7 @@ const Treatment = () => {
                     
                   </div>
 
-                  <button className="px-6 py-2 rounded-full border text-sm transition hover:bg-[#8b0000] hover:text-white" >
-                    Show all services
-                  </button>
+                  
                 </div>
               ) : (
                 <div
@@ -216,7 +214,7 @@ const Treatment = () => {
 
           {/* CTA */}
           <div className="flex justify-center mt-16">
-            <button className="flex items-center gap-3 bg-[#8b0000] text-white px-10 py-4 rounded-full font-semibold">
+            <button className="flex items-center gap-3 transition hover:bg-[#8b0000] hover:text-white px-10 py-4 rounded-full font-semibold">
               Show All Services
               <span className="w-8 h-8 bg-white text-[#8b0000] rounded-full flex items-center justify-center">
                 →
